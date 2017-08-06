@@ -1,0 +1,17 @@
+@charset "UTF-8";
+$text-color: #4A4D55;
+$text-inverted: #f5f5f5;
+$primary-color: #1997c6;
+
+$roboto-font-path: "../fonts/roboto/" !default;
+
+// Mixins
+@import "materialize/mixins";
+// @import "materialize/variables";
+// Reset
+@import "materialize/normalize";
+// components
+@import "materialize/tapTarget";;
+// @import "materialize/colors";
+
+
