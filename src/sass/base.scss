@@ -2,16 +2,45 @@
 $text-color: #4A4D55;
 $text-inverted: #f5f5f5;
 $primary-color: #1997c6;
-
 $roboto-font-path: "../fonts/roboto/" !default;
-
 // Mixins
 @import "mixins";
 // @import "variables";
 // Reset
 @import "normalize";
 // components
-@import "tapTarget";;
+@import "tapTarget";
+;
 // @import "colors";
+#tap-container {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
 
+#tap-container {
+    .tap-target-wrapper {
+        text-align: right;
+        width: 600px;
+        height: 600px;
+        .tap-target-content {
+            vertical-align: middle !important;
+        }
+    }
+}
 
+.btn {
+    outline: 0;
+    &.btn-floating {
+        color: $text-inverted;
+        overflow: hidden;
+        z-index: 1;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        padding: 0;
+        background-color: $primary-color;
+        border-radius: 50%;
+        font-size: 2em;
+    }
+}
