@@ -6,12 +6,12 @@ $primary-color: #1997c6;
 $roboto-font-path: "../fonts/roboto/" !default;
 
 // Mixins
-@import "materialize/mixins";
-// @import "materialize/variables";
+@import "mixins";
+// @import "variables";
 // Reset
-@import "materialize/normalize";
+@import "normalize";
 // components
-@import "materialize/tapTarget";;
-// @import "materialize/colors";
+@import "tapTarget";;
+// @import "colors";
 
 
